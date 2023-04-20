@@ -1,0 +1,253 @@
+[[P4est]]
+arch = "aarch64"
+git-tree-sha1 = "f78701d2bc6f2dbb562f7d645cb940516ef745f4"
+lazy = true
+mpi = "mpich"
+os = "macos"
+
+    [[P4est.download]]
+    sha256 = "06fe14ccf326d00ac1216f75f1d23b0eccba771423e7879c043e427013d0c4a2"
+    url = "https://github.com/jmark/P4est_jll.jl/releases/download/P4est-v2.8.5+0/P4est.v2.8.5.aarch64-apple-darwin-mpi+mpich.tar.gz"
+[[P4est]]
+arch = "aarch64"
+git-tree-sha1 = "e0ed0baf80cd48123b155a712f490d4d8d077a8f"
+lazy = true
+mpi = "mpitrampoline"
+os = "macos"
+
+    [[P4est.download]]
+    sha256 = "fae182e563d1eb3e0e5132f2fb690481229cce8ec921393c1874e0054f1603bc"
+    url = "https://github.com/jmark/P4est_jll.jl/releases/download/P4est-v2.8.5+0/P4est.v2.8.5.aarch64-apple-darwin-mpi+mpitrampoline.tar.gz"
+[[P4est]]
+arch = "aarch64"
+git-tree-sha1 = "e253467e84ce95a656f7ff6de16715925deef48a"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[P4est.download]]
+    sha256 = "4dd0c5c3d175d1a52c6339f82e1b68ba34afcc9bcd68d85897f223932fccc938"
+    url = "https://github.com/jmark/P4est_jll.jl/releases/download/P4est-v2.8.5+0/P4est.v2.8.5.aarch64-linux-gnu-mpi+mpich.tar.gz"
+[[P4est]]
+arch = "aarch64"
+git-tree-sha1 = "103e39be9bc263d9dca39148b03e7eb5c6b3ff41"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[P4est.download]]
+    sha256 = "25eb1815db372ebdc5fc78c509b97b8a2b499c0c330a2a832323fb7497e1c1a4"
+    url = "https://github.com/jmark/P4est_jll.jl/releases/download/P4est-v2.8.5+0/P4est.v2.8.5.aarch64-linux-gnu-mpi+mpitrampoline.tar.gz"
+[[P4est]]
+arch = "aarch64"
+git-tree-sha1 = "f14890f943a218d29d6ec96c4d81fe2b9f57db1a"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[P4est.download]]
+    sha256 = "d21206540a85578769edf2eb60c268e9b6d7ebca9330a74633847455f82f9f4d"
+    url = "https://github.com/jmark/P4est_jll.jl/releases/download/P4est-v2.8.5+0/P4est.v2.8.5.aarch64-linux-musl-mpi+mpich.tar.gz"
+[[P4est]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "dc46b9009ccc7babfd6867be906b8da69b4f9c6a"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[P4est.download]]
+    sha256 = "d8f003aa06e4cc3cd368c7c57d556e93075071ed43810f3522306837392b24e4"
+    url = "https://github.com/jmark/P4est_jll.jl/releases/download/P4est-v2.8.5+0/P4est.v2.8.5.armv6l-linux-gnueabihf-mpi+mpich.tar.gz"
+[[P4est]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "6114783956e7ecdd32fcf897b5c4cc752f4642b5"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[P4est.download]]
+    sha256 = "98e59aa52f9137ff9a1e85eb46cdcb5163beaddc0d0a38aff35662aea7b2e367"
+    url = "https://github.com/jmark/P4est_jll.jl/releases/download/P4est-v2.8.5+0/P4est.v2.8.5.armv6l-linux-gnueabihf-mpi+mpitrampoline.tar.gz"
+[[P4est]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "263a1ec49fce1d4a879c24607aed963f1b977992"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[P4est.download]]
+    sha256 = "2b8155fa6a3489ecc1c48c1900dc8bbc10a42086402c62872f42a010f33a2768"
+    url = "https://github.com/jmark/P4est_jll.jl/releases/download/P4est-v2.8.5+0/P4est.v2.8.5.armv6l-linux-musleabihf-mpi+mpich.tar.gz"
+[[P4est]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "2ae9b0355893f0b3ca3bbbc4b93984fcb0d5823d"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[P4est.download]]
+    sha256 = "ef16e6eaf90e33469739e2df066f35d4dbb16c7eb240c2e88ba22a2767619822"
+    url = "https://github.com/jmark/P4est_jll.jl/releases/download/P4est-v2.8.5+0/P4est.v2.8.5.armv7l-linux-gnueabihf-mpi+mpich.tar.gz"
+[[P4est]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "e69f3d0135ec9c00f79fa14cc5d1c8ae21719c88"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[P4est.download]]
+    sha256 = "ef01e83bc4b1f27bb396f8255bfcb99fe9c504f6dbf46ebe996d3fd2bdd2dc55"
+    url = "https://github.com/jmark/P4est_jll.jl/releases/download/P4est-v2.8.5+0/P4est.v2.8.5.armv7l-linux-gnueabihf-mpi+mpitrampoline.tar.gz"
+[[P4est]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "eed4bd7b692a1f244e226530a8d242d2ee319677"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[P4est.download]]
+    sha256 = "3ea556b87c45a8c07f737aaae8b0455f658d1dfd0368a9dfaa3adedcb7f693a9"
+    url = "https://github.com/jmark/P4est_jll.jl/releases/download/P4est-v2.8.5+0/P4est.v2.8.5.armv7l-linux-musleabihf-mpi+mpich.tar.gz"
+[[P4est]]
+arch = "i686"
+git-tree-sha1 = "dd7a2cdb9f6b7c00c19f5c9a359f1bfc0cb74bf4"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[P4est.download]]
+    sha256 = "2c7320ce49cc77d84bc413be18e65ffb863d66fd90ebeee65cccbf3175d9b632"
+    url = "https://github.com/jmark/P4est_jll.jl/releases/download/P4est-v2.8.5+0/P4est.v2.8.5.i686-linux-gnu-mpi+mpich.tar.gz"
+[[P4est]]
+arch = "i686"
+git-tree-sha1 = "d3c98e3cc8111c5ea899363c2e5052d0e71fe097"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[P4est.download]]
+    sha256 = "8ffb4834a544e0106a0a4cb7f0d763187d7db09629970fd0a0f2d453c261329e"
+    url = "https://github.com/jmark/P4est_jll.jl/releases/download/P4est-v2.8.5+0/P4est.v2.8.5.i686-linux-gnu-mpi+mpitrampoline.tar.gz"
+[[P4est]]
+arch = "i686"
+git-tree-sha1 = "8acb5b41c17e6210517f1e7584ef377e8714ece7"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[P4est.download]]
+    sha256 = "8e0b308f5022cab6870a2497304cf418e5f821719a51f35d81e6b721c04b8f70"
+    url = "https://github.com/jmark/P4est_jll.jl/releases/download/P4est-v2.8.5+0/P4est.v2.8.5.i686-linux-musl-mpi+mpich.tar.gz"
+[[P4est]]
+arch = "powerpc64le"
+git-tree-sha1 = "cf68166e6faf7c09ceed8ab6208a9e941d25a844"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[P4est.download]]
+    sha256 = "a45b3cc4957c75360dfccf8cb435fba4af6fe2da1c41b2c887bf76e355803481"
+    url = "https://github.com/jmark/P4est_jll.jl/releases/download/P4est-v2.8.5+0/P4est.v2.8.5.powerpc64le-linux-gnu-mpi+mpich.tar.gz"
+[[P4est]]
+arch = "powerpc64le"
+git-tree-sha1 = "e0f257733e816b7e74d3f3db23f6680d7a784179"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[P4est.download]]
+    sha256 = "9bd4115c629974d943b5eb2282088dbd21061eda5bd569d6320f65c60697c4d2"
+    url = "https://github.com/jmark/P4est_jll.jl/releases/download/P4est-v2.8.5+0/P4est.v2.8.5.powerpc64le-linux-gnu-mpi+mpitrampoline.tar.gz"
+[[P4est]]
+arch = "x86_64"
+git-tree-sha1 = "ab102a5c4002b4e93e4d54d69849e566c95f4aaf"
+lazy = true
+mpi = "mpich"
+os = "macos"
+
+    [[P4est.download]]
+    sha256 = "297d4d1ca45becdc8bddc782a7d6886128cf56a4191b25b6bfe950a9e0d69e2a"
+    url = "https://github.com/jmark/P4est_jll.jl/releases/download/P4est-v2.8.5+0/P4est.v2.8.5.x86_64-apple-darwin-mpi+mpich.tar.gz"
+[[P4est]]
+arch = "x86_64"
+git-tree-sha1 = "464d804932322e59e0601ec3d99c9383338e967e"
+lazy = true
+mpi = "mpitrampoline"
+os = "macos"
+
+    [[P4est.download]]
+    sha256 = "73247d547fa34f1ff02418171b95427ecf3210eb82e170534d5cfbea9276be5d"
+    url = "https://github.com/jmark/P4est_jll.jl/releases/download/P4est-v2.8.5+0/P4est.v2.8.5.x86_64-apple-darwin-mpi+mpitrampoline.tar.gz"
+[[P4est]]
+arch = "x86_64"
+git-tree-sha1 = "cf9c1032b8783f5e494051234d05f49cabff5529"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[P4est.download]]
+    sha256 = "dae4ab44e45051198b987e1944eddec10b3647825a907e465bdcadacc45987ec"
+    url = "https://github.com/jmark/P4est_jll.jl/releases/download/P4est-v2.8.5+0/P4est.v2.8.5.x86_64-linux-gnu-mpi+mpich.tar.gz"
+[[P4est]]
+arch = "x86_64"
+git-tree-sha1 = "9bd52fd75d4d2fd07df08129b2ed96875b3c1420"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[P4est.download]]
+    sha256 = "f78d3770a0eaed32ceae1371930ef47cc54b32ed39672da546677cc2678ffbb7"
+    url = "https://github.com/jmark/P4est_jll.jl/releases/download/P4est-v2.8.5+0/P4est.v2.8.5.x86_64-linux-gnu-mpi+mpitrampoline.tar.gz"
+[[P4est]]
+arch = "x86_64"
+git-tree-sha1 = "30cc67f3711ebacff749c0baf2b825ed02ab1428"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[P4est.download]]
+    sha256 = "9664b309c8c8447af1cca1b01300a3de14696fcf83c6dc52da1645a6f695255e"
+    url = "https://github.com/jmark/P4est_jll.jl/releases/download/P4est-v2.8.5+0/P4est.v2.8.5.x86_64-linux-musl-mpi+mpich.tar.gz"
+[[P4est]]
+arch = "x86_64"
+git-tree-sha1 = "5ba280e6bef57ba71bed92aab1fe3dbb42b93020"
+lazy = true
+mpi = "mpich"
+os = "freebsd"
+
+    [[P4est.download]]
+    sha256 = "5261d42354e51d027e4f2dc11005620620af0198d09684969d2a0c4725f78cd0"
+    url = "https://github.com/jmark/P4est_jll.jl/releases/download/P4est-v2.8.5+0/P4est.v2.8.5.x86_64-unknown-freebsd-mpi+mpich.tar.gz"
+[[P4est]]
+arch = "x86_64"
+git-tree-sha1 = "7e71d60edaa3f196256781f2c486a91cbb43bad8"
+lazy = true
+mpi = "microsoftmpi"
+os = "windows"
+
+    [[P4est.download]]
+    sha256 = "582471177bc81ad362b3cc1192eb70e5445f95b516f895b0dd2c8816e0c1c6ab"
+    url = "https://github.com/jmark/P4est_jll.jl/releases/download/P4est-v2.8.5+0/P4est.v2.8.5.x86_64-w64-mingw32-mpi+microsoftmpi.tar.gz"
